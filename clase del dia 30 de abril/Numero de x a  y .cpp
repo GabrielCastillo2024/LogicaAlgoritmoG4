@@ -1,28 +1,27 @@
 #include<iostream>
-
 using namespace std;
 
-void mostrar (int x, int y);
+#define MAX;
 
-int main()
+void Impar(int x, int y);
+
+ main()
 {
-    int x,y;
-    cout <<"Digite un #";
-    cin>>x;
-    cout<<"Digite otro #";
-    cin>>y;
-    mostrar(x,y);
-
+    int x;
+    cout << "introduce x"; 
+    cin >> x;
+    Impar(x);
+    cout<< "Introdduce Y";
+    cin>>(y)
+    
     return 0;
 }
 
-
-
-void mostrar(int x, int y ){
-    for (int i = x; i<=y; i++){
-        if(i % 2 !=0){
-            cout<< i << endl;
-        }
-    }
+void Impar(int x, int y){
+  cout<<"Introduce x";
+  cin>> x;
+  cout<<"Introduce y";
+  cin>>y;
+    
 }
 
